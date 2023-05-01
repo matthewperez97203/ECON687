@@ -95,5 +95,5 @@ Replication_Table<-cbind(df_intl,df_sl,df_y,df_bicc)
 print(Replication_Table)
 Replication_Table_Darts <- Replication_Table[,-c(3,5,7)]
 print(Replication_Table_Darts)
-names(Replication_Table_Darts) <- c("Variable", "International", "SuperLeague", "BICC", "Youth")
+names(Replication_Table_Darts) <- c("Variable", "International", "BICC", "SuperLeague", "Youth")
 print(Replication_Table_Darts)
